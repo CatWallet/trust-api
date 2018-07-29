@@ -1,4 +1,4 @@
-# :cloud: Trust Ray :cloud:
+# :cloud: CAT Wallet API :cloud:
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/TrustWallet/trust-ray.svg)](https://greenkeeper.io/)
 
@@ -8,20 +8,21 @@
 [![Black Duck Security Risk](https://copilot.blackducksoftware.com/github/repos/TrustWallet/trust-ray/branches/token_endpoint/badge-risk.svg)](https://copilot.blackducksoftware.com/github/repos/TrustWallet/trust-ray/branches/token_endpoint)
 
 
-API for the Trust Ethereum Wallet.
+API for the CAT Ethereum Wallet.
+
+This is just a proxy to the various API, one for each separate chain.
 
 ## Features
 
 * Parsing entire blockchain
 * Retrieving transactions with operations field for ERC20 contract actions
 * Retrieving ERC20 token balances
-* Push notification service (not yet implemented)
 
 ## API [wiki](https://github.com/TrustWallet/trust-ray/wiki/API)
 
-    
+
 ## Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/TrustWallet/trust-wallet-backend)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/CatWallet/trust-api)
 
 ## Locally (without docker)
 * Install required modules:
@@ -38,9 +39,6 @@ Install docker and docker-compose.
 
 Set in *~/.bashrc*
 ```export COMPOSE_FILE=docker-compose.yml:docker-compose.dev.yml```
-
-Set in .env
-```MONGODB_URI=mongodb://mongodb:27017/trust-wallet```
 
 Dev tool:
 

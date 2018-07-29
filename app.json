@@ -1,0 +1,26 @@
+{
+  "name": "CATWallet public API",
+  "description": "Public API for the CAT Wallet App",
+  "env": {
+    "ETHEREUM_API": {
+      "description": "Backend API for the CAT Wallet App for Ethereum mainnet",
+      "value": "https://api.trustwalletapp.com/"
+    },
+    "CLASSIC_API": {
+      "description": "Backend API for the CAT Wallet App for Ethereum Classic",
+      "value": "https://trust-classic.herokuapp.com/"
+    },
+    "POA_API": {
+      "description": "Backend API for the CAT Wallet App for POA",
+      "value": "https://trust-poa.herokuapp.com/"
+    },
+    "CALLISTO_API": {
+      "description": "Backend API for the CAT Wallet App for Callisto",
+      "value": "https://trust-callisto.herokuapp.com/"
+    },
+    "RINKEBY_API": {
+      "description": "Backend API for the CAT Wallet App for Rinkeby testnet",
+      "value": "https://rinkeby.trustwalletapp.com/"
+    }
+  }
+}

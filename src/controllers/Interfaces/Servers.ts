@@ -1,9 +1,10 @@
-export enum Nodes {
-    ethereum = "https://api.trustwalletapp.com/",
-    classic = "https://trust-classic.herokuapp.com/",
-    poa = "https://trust-poa.herokuapp.com/",
-    callisto = "https://trust-callisto.herokuapp.com/",
-    localhost = "http://localhost:8000/"
+export const Nodes = {
+    ethereum : process.env.ETHEREUM_API,
+    classic: process.env.CLASSIC_API,
+    poa: process.env.POA_API,
+    callisto: process.env.CALLISTO_API,
+    rinkeby: process.env.RINKEBY_API,
+    localhost: "http://localhost:8000/"
 }
 
 export enum Endpoints {

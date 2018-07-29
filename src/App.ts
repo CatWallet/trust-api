@@ -17,7 +17,7 @@ const port = process.env.PORT || 8003;
 export class App {
 
     public app: any;
-    public db: Database;
+    // public db: Database;
 
 
     constructor() {
@@ -63,8 +63,8 @@ export class App {
     }
 
     private setupDatabase() {
-        this.db = new Database(config.get("MONGO.URI"));
-        this.db.connect();
+        // this.db = new Database(config.get("MONGO.URI"));
+        // this.db.connect();
     }
 
     private addRoutes() {
